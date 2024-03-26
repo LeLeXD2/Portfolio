@@ -7,8 +7,8 @@
 }
 
 body {
-    background: linear-gradient(45deg, #40679E, #1B3C73 90%);
-    overflow: hidden;
+    background: linear-gradient(45deg, #40679E, #1B3C73 100%);
+    
 }
 
 nav {
@@ -65,4 +65,13 @@ li:hover a,#checked {
     color:#EEEEEE;
     letter-spacing: 7px;
     text-shadow: 0 0 15px rgb(0,0,0.8);
+}
+
+img{
+    position: absolute;
+    width: 100%;
+}
+
+#Moon {
+    scale: 1;
 }
